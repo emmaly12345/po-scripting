@@ -78,7 +78,7 @@ function fireTorpedo(e) {
 			
 		// if player clicks a square with a ship, change the color and change square's value
 		} else if (gameBoard[row][col] == 1) {
-			e.target.style.background = myImage.src = 'https://www.google.nl/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj6usSLiMPeAhUB6aQKHUwVDcwQjRx6BAgBEAU&url=https%3A%2F%2Fwww.ebay.co.uk%2Fitm%2FDead-Smiley-25mm-1-Button-Badge-Humour-Novelty-Fun-Have-nice-day-Emo-Student-%2F220963635120&psig=AOvVaw3CUqCfLP_dxj4LWCy8bCY3&ust=1541706946507239';
+			e.target.style.background = "red";
 			// set this square's value to 2 to indicate the ship has been hit
 			gameBoard[row][col] = 2;
 			
